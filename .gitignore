@@ -1,0 +1,6 @@
+.*.swp
+/prototype
+/postinstall
+/libffi-?.?.?.tar.gz
+/libffi-?.?.?
+/destroot
