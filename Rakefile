@@ -30,7 +30,7 @@ task :prototype => :build do
     f.write <<-EOS.gsub(/^\s+/, '')
       i pkginfo
       i depend
-      i LICENSE=libffi-#{TARGET_VERSION}/LICENSE
+      i copyright=libffi-#{TARGET_VERSION}/LICENSE
       i postinstall=./postinstall
     EOS
 
